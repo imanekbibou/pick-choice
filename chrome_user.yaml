@@ -1,0 +1,11 @@
+custom-devices:
+  - id: chrome-user
+    label: Chrome With User Profile
+    sdk: chrome
+    platform: web
+    enabled: true
+    config:
+      executable: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+      args:
+        - "--user-data-dir=C:\\Users\\user\\ChromeFlutterProfile"
+        - "--remote-debugging-port=9222"
